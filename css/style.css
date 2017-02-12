@@ -18,6 +18,12 @@ body {
   }
 }
 
+@media (max-width: 768px) {
+  body {
+  	width: 90%;
+  }
+}
+
 h1 { 
 	font-family: "Brusher", sans-serif;
 	text-align: center;
