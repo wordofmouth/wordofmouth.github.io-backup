@@ -5,17 +5,17 @@
   src: url(../fonts/brusher.otf) format("opentype");
 }
 
-@media (min-width: 767px) {
-	body {
-		width: 50%;
-	}
-}
-
 body {
 	font-size: 2em;
 	margin: 0 auto;
 	color: #29264e;
-	padding: 0 5%;
+	width: 50%;
+}
+
+@media (max-device-width: 768px) {
+  body {
+  	width: 90%;
+  }
 }
 
 h1 { 
